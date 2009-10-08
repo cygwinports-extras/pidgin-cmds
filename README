@@ -1,0 +1,56 @@
+pidgin-cmds
+------------------------------------------
+The gist of this package is to provide lightweight commands to extend 
+conversation functionality in pidgin and finch.
+
+Runtime requirements:
+  cygwin-1.7.0-62
+  libgcc1-4.3.4-1
+  libglib2.0_0-2.20.5-1
+  libpurple0-2.5.8-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.63-10
+  automake1.11-1.11-10
+  binutils-2.19.51-1
+  cygport-0.9.9-1
+  gawk-3.1.7-1
+  gcc4-core-4.3.2-2
+  libtool-2.2.7a-14
+  make-3.81-2
+  pkg-config-0.23b-10
+  sed-4.1.5-2
+
+Canonical website:
+  http://code.google.com/p/pidgin-cmds/
+
+Canonical download:
+  http://code.google.com/p/pidgin-cmds/downloads/list
+
+-------------------------------------------
+
+Build instructions:
+  unpack pidgin-cmds-0.2.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./pidgin-cmds-0.2.0-X.cygport all
+
+This will create:
+  /usr/src/pidgin-cmds-0.2.0-X-src.tar.bz2
+  /usr/src/pidgin-cmds-0.2.0-X.tar.bz2
+
+For a list of files included in the binary package, run from the 
+command-line: 'cygcheck -cd pidgin-cmds'.
+
+-------------------------------------------
+
+Port Notes:
+
+----- version 0.2.0-1 -----
+Initial release for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
