@@ -1,0 +1,11 @@
+NAME="pidgin-cmds"
+VERSION=0.2.0
+RELEASE=1
+CATEGORY="Net"
+SUMMARY="Adds /shout and /grep commands to Pidgin"
+DESCRIPTION="The gist of this package is to provide lightweight commands to
+extend conversation functionality in pidgin and finch."
+HOMEPAGE="http://code.google.com/p/pidgin-cmds/"
+SRC_URI="http://pidgin-cmds.googlecode.com/files/${NAME}-${VERSION}.tar.bz2"
+
+MAKEOPTS+=" LDFLAGS=-no-undefined"

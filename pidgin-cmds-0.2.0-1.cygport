@@ -1,5 +1,0 @@
-DESCRIPTION="Adds /shout and /grep commands to Pidgin"
-HOMEPAGE="http://code.google.com/p/pidgin-cmds/"
-SRC_URI="http://pidgin-cmds.googlecode.com/files/${P}.tar.bz2"
-
-MAKEOPTS+=" LDFLAGS=-no-undefined"

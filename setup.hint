@@ -1,5 +1,0 @@
-category: Net Gnome
-requires: libgcc1 libglib2.0_0 libpurple0
-sdesc: "Adds /shout and /grep commands to Pidgin"
-ldesc: "The gist of this package is to provide lightweight commands to 
-extend conversation functionality in pidgin and finch."
